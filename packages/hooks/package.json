@@ -10,8 +10,7 @@
     "dist/"
   ],
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.com/"
+    "access": "public"
   },
   "peerDependencies": {
     "ahooks": ">= 1",
@@ -19,5 +18,5 @@
     "react": ">= 16.8.0",
     "react-dom": ">= 16.8.0"
   },
-  "gitHead": "750ba7638b95925991446cf84d452f7fa63c6861"
+  "gitHead": "a40ac75198098a51eaa66ce78c99829e937e93ff"
 }
