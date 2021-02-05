@@ -6,11 +6,7 @@ import typescript from '@rollup/plugin-typescript';
 const { LERNA_PACKAGE_NAME, LERNA_ROOT_PATH } = process.env;
 const PACKAGE_ROOT_PATH = process.cwd();
 const INPUT_FILE = path.join(PACKAGE_ROOT_PATH, 'src/index.ts');
-const OUT_DIR = path.join(PACKAGE_ROOT_PATH, 'dist');
 const PKG_JSON = require(path.join(PACKAGE_ROOT_PATH, 'package.json'));
-const IS_BROWSER_BUNDLE = !!PKG_JSON.browser;
-
-const formats = IS_BROWSER_BUNDLE ? ['umd'] : ['es', 'cjs'];
 
 export default {
     input: INPUT_FILE,
