@@ -1,5 +1,5 @@
 {
-  "name": "toolbox",
+  "name": "lemonai",
   "private": true,
   "scripts": {
     "build": "lerna exec -- rollup -c=../../rollup.config.js",
