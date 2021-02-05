@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/nicedudu/toolbox/compare/@toolbox/hooks@1.2.0...@toolbox/hooks@1.3.0) (2021-02-05)
+
+
+### Features
+
+* 更新publishConfig ([092bf47](https://github.com/nicedudu/toolbox/commit/092bf4716f1bc0cbf6c4eba90ef13d4eae5454cb))
+
+
+
+
+
 # 1.2.0 (2021-02-05)
 
 
