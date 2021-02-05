@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/nicedudu/toolbox/compare/@toolbox/hooks@1.3.0...@toolbox/hooks@1.4.0) (2021-02-05)
+
+
+### Features
+
+* 去除registry ([5d9149d](https://github.com/nicedudu/toolbox/commit/5d9149d4963323bb33bd3d7e50a0a9f7ce173b5b))
+* 添加access ([a40ac75](https://github.com/nicedudu/toolbox/commit/a40ac75198098a51eaa66ce78c99829e937e93ff))
+
+
+
+
+
 # [1.3.0](https://github.com/nicedudu/toolbox/compare/@toolbox/hooks@1.2.0...@toolbox/hooks@1.3.0) (2021-02-05)
 
 
