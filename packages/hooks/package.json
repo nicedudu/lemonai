@@ -9,10 +9,14 @@
   "files": [
     "dist/"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "ahooks": ">= 1",
     "antd": ">= 3",
     "react": ">= 16.8.0",
     "react-dom": ">= 16.8.0"
-  }
+  },
+  "gitHead": "160e2fdf6aca0aa15b06732476e1adc266c3db63"
 }
