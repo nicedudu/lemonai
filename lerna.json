@@ -1,0 +1,23 @@
+{
+  "npmClient": "yarn",
+  "useWorkspace": true,
+  "command": {
+    "publish": {
+      "registry": "https://registry.npmjs.org/",
+      "allowBranch": "master",
+      "conventionalCommits": true,
+      "exact": true,
+      "ignoreChanges": ["src", "tsconfig.json"],
+      "message": "chore(release): publish"
+    },
+    "version": {
+      "conventionalCommits": true
+    }
+  },
+  "hoist": true,
+  "stream": true,
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.0.0"
+}

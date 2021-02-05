@@ -1,0 +1,18 @@
+{
+  "name": "@toolbox/hooks",
+  "version": "1.0.0",
+  "author": "zengfr",
+  "license": "MIT",
+  "main": "dist/lib/index.js",
+  "module": "dist/es/index.js",
+  "types": "dist/es/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "peerDependencies": {
+    "ahooks": ">= 1",
+    "antd": ">= 3",
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0"
+  }
+}
