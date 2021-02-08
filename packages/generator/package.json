@@ -1,0 +1,10 @@
+{
+  "name": "@lemonai/generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "zengfr",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.12.13"
+  }
+}
