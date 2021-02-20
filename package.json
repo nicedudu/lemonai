@@ -2,8 +2,8 @@
   "name": "lemonai",
   "private": true,
   "scripts": {
-    "build": "lerna exec -- rollup -c=../../rollup.config.js",
-    "watch": "lerna exec -- rollup -w -c=../../rollup.config.js"
+    "build": "lerna exec -- rollup -c",
+    "watch": "lerna exec -- rollup -w -c"
   },
   "workspaces": [
     "packages/*"

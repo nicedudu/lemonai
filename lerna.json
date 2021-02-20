@@ -9,7 +9,8 @@
       "exact": true,
       "ignoreChanges": [
         "src",
-        "tsconfig.json"
+        "tsconfig.json",
+        "rollup.config.js"
       ],
       "message": "chore(release): publish"
     },

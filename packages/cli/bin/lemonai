@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+const { checkNodeVersion, printPkgVersion } = require('../dist');
+
+// 检查运行环境的Node版本
+checkNodeVersion();
+
+// 打印当前CLI的版本
+printPkgVersion();
+
