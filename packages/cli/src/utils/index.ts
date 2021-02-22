@@ -5,8 +5,15 @@ import path from 'path';
 /**
  * 获取根目录
  */
-const getRootPath = (): string => {
+export const getRootPath = (): string => {
     return path.resolve(__dirname, '../');
+}
+
+/**
+ * 获取程序版本信息
+ */
+export const getAppVersion = (): string => {
+    return require(path.join(getRootPath(), 'package.json')).version;
 }
 
 /**
@@ -26,7 +33,7 @@ export const checkNodeVersion = () => {
  * 打印当前版本信息
  */
 export const printPkgVersion = () => {
-    const appVersion = require(path.join(getRootPath(), 'package.json')).version;
+    const appVersion = getAppVersion();
 
     console.log(chalk.yellow.bold(`🍋 Lemonai v${appVersion}`));
     console.log();
