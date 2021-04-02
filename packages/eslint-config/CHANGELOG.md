@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/nicedudu/toolbox/compare/@lemonai/eslint-config@1.1.0...@lemonai/eslint-config@1.2.0) (2021-04-02)
+
+
+### Features
+
+* 更新license ([a52d4d0](https://github.com/nicedudu/toolbox/commit/a52d4d09724421ffd9b4e23a5d4db11e5655e252))
+
+
+
+
+
 # 1.1.0 (2021-04-02)
 
 
