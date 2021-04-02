@@ -2,7 +2,7 @@
   "name": "@lemonai/eslint-config",
   "version": "1.1.0",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
