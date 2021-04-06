@@ -10,5 +10,6 @@ module.exports = {
     trailingComma: "none",
     vueIndentScriptAndStyle: true,
     useTabs: false,
-    htmlWhitespaceSensitivity: "css"
+    htmlWhitespaceSensitivity: "css",
+    singleQuote: true
 }
