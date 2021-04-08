@@ -9,16 +9,13 @@
         "airbnb/hooks",
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
-        "prettier"
+        "prettier",
+        "prettier/react",
+        "prettier/@typescript-eslint"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": 2021,
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "sourceType": "module",
-        "project": "./tsconfig.json"
+        "ecmaVersion": 2021
     },
     "plugins": [
         "react",
