@@ -1,0 +1,12 @@
+{
+  "name": "@lemonai/prettier-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
