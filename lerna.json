@@ -1,6 +1,6 @@
 {
   "npmClient": "yarn",
-  "useWorkspace": true,
+  "useWorkspaces": true,
   "command": {
     "publish": {
       "registry": "https://registry.npmjs.org/",
